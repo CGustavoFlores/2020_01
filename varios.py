@@ -37,7 +37,7 @@ print(resultado)
 
 
 # metodos de cadena
-
+"""  
 frase="aprendiendo a programar Python"
 print(frase)
 print(frase[2])
@@ -50,3 +50,49 @@ print(frase.title)
 print(frase.lower)
 print(frase.capitalize)
 print(frase.translate)
+
+"""
+nombre="Michael Jordan"
+edad="32"
+media_puntos=78.2
+juega=False
+
+frase= f"jugador" + nombre + " de " + edad + "años tiene un promedio de " + str(media_puntos) + " y actualmente juega " + str(juega)
+for i in range (7):
+    print ( str(i) ) 
+
+for i in range (5,10):
+    print ( str(i) + " " +  frase) 
+
+for i in range (10, 100, 10):
+    print ( str(i) + " " +  frase) 
+
+alumnos = ["juan","pedro", "ana","luciana","ariel"]
+for i in range (len(alumnos)):
+    print (alumnos[i])
+    
+x = int(input("ingrese un numero"))
+while int(x) != 99:
+    if x < 0:
+        print ("es un numero negativo")
+    elif x == 0:
+        print ("es un nro. 0")
+    elif x > 0:
+        print ("es un nro. positivo")
+    x = int(input("ingrese un numero"))
+
+# ingresar dos numeros y calcular la suma de los nuro.del intervalo
+x=0
+y=0
+z=0
+acum=0
+while x >= y:
+    x= int(input("Ingrese el nro. de inicio: "))
+    y= int(input("Ingrese el nro. de fin : "))
+    if x < y:
+        for z in range(x,y):
+            acum=acum + (z+x)
+    else:
+        print("Ingrese un intervalo correcto")
+    print( f"La suma de los nros. entre {x}  y {y} es {z}")
+
