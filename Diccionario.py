@@ -2,8 +2,6 @@ import datetime
 
 YoSoy="Gustavo Flores"
 print("Hi, Me names is " + YoSoy)
-<<<<<<< HEAD
-=======
 print("Hi, Me names is " + YoSoy)
 
 a1=21
@@ -27,5 +25,4 @@ edad= int(an) - int(nacimiento)
 print("funcion year" ,datetime.datetime.year)
 
 gflow_te_saluda(nombre,edad)
->>>>>>> c218440c8b2314f1bc3563e0313434f0c1423ee5
 
